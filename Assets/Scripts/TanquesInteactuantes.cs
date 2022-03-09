@@ -64,4 +64,20 @@ public class TanquesInteactuantes : MonoBehaviour
         else
             return variable;
     }
+
+    
+    public void SetQi(float nqi)
+    {
+        qi = nqi;
+    }
+
+    public void SetKv1(float nqi)
+    {
+        cv1 = nqi;
+    }
+
+    public void SetKv2(float nqi)
+    {
+        cv2 = nqi;
+    }
 }   

@@ -11,6 +11,7 @@ public class ExampleScript : MonoBehaviour
     }
 }
 
+#if UNITY_EDITOR
 // A tiny custom editor for ExampleScript component
 [CustomEditor(typeof(ExampleScript))]
 public class ExampleEditor : Editor
@@ -52,3 +53,5 @@ public class ExampleEditor : Editor
     }
 
 }
+
+#endif

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
+#if UNITY_EDITOR
 public class EditorValve : MonoBehaviour
 {
 }
@@ -37,3 +38,4 @@ public class CustomEditorValve : Editor
     }
 }
 
+#endif

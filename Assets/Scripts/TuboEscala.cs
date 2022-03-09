@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 
 
+#if UNITY_EDITOR
 [ExecuteInEditMode]
 public class TuboEscala : MonoBehaviour
 {
@@ -84,3 +85,4 @@ public class TubosEditor : Editor
                         tr.eulerAngles = c.transform.eulerAngles;
                         return;
                     }    */
+#endif
